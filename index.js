@@ -49,7 +49,7 @@ const Filter = require("./modules/filter/Filter");
 const client = new Discord.Client();
 
 // Client settings.
-const prefix = "=";
+const prefix = "kc.";
 const deleteDelay = 5000; // 5 second delete delay.
 const creators = ["<@218397146049806337>", "<@309845156696424458>"]; // Jett and Jonah
 const botAdmin = []; // Maybe fill this with IDs of users who can use eval.
